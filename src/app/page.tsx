@@ -31,12 +31,11 @@ export default function Page() {
                     yOffset={0}
                     text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
                   />
-                  <BlurFadeText
-                    className="max-w-[600px] hidden sm:block md:text-xl mt-4 xl:mt-2"
-                    delay={BLUR_FADE_DELAY}
-                    yOffset={0}
-                    text={DATA.description}
-                  />
+                  <BlurFade delay={BLUR_FADE_DELAY} yOffset={0}>
+                    <Markdown className="max-w-[600px] md:text-xl mt-4 xl:mt-2 [&>p>a]:underline">
+                      {DATA.description}
+                    </Markdown>
+                  </BlurFade>
                 </div>
                 <BlurFade delay={BLUR_FADE_DELAY} yOffset={0}>
                   <Avatar className="size-20 md:size-40 border border-gray-100">
@@ -45,12 +44,6 @@ export default function Page() {
                   </Avatar>
                 </BlurFade>
               </div>
-              <BlurFadeText
-                className="max-w-[600px] sm:hidden"
-                delay={BLUR_FADE_DELAY}
-                yOffset={0}
-                text={DATA.description}
-              />
             </div>
           </BlurFade>
         </div>
@@ -91,7 +84,9 @@ export default function Page() {
       <section id="apprenticeships">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Volunteering & Apprenticeships</h2>
+            <h2 className="text-xl font-bold">
+              Volunteering & Apprenticeships
+            </h2>
           </BlurFade>
           {DATA.apprenticeships.map((work, id) => (
             <BlurFade
@@ -188,6 +183,7 @@ export default function Page() {
                   image={project.image}
                   links={project.links}
                   flagship={project.flagship}
+                  id={project.id}
                 />
               </BlurFade>
             ))}
@@ -205,7 +201,10 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just send me an email at{" "}
+                Want to chat or have an opportunity for me?
+              </p>
+              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Just send me an email at{" "}
                 <Link
                   href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
@@ -227,8 +226,8 @@ export default function Page() {
       </section>
       <footer className="pb-8">
         <p className="text-xs text-center text-muted-foreground">
-          This site uses cookies for analytics purposes, by browsing this site
-          you agree to that.
+          EU Notice: This site uses cookies for analytics purposes, by browsing
+          this site you agree to that.
         </p>
       </footer>
     </main>

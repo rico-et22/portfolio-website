@@ -25,6 +25,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  id?: string;
   flagship?: boolean;
 }
 
@@ -39,16 +40,20 @@ export function ProjectCard({
   links,
   className,
   flagship,
+  id,
 }: Props) {
   return (
     <Card
+      id={id}
       className={cn(
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full dark:bg-neutral-900",
         flagship && "border-red-700 border-4"
       )}
     >
       {flagship && (
-        <div className="absolute top-0 right-8 bg-red-700 font-bold px-3 py-2 rounded">Flagship</div>
+        <div className="absolute top-0 right-8 bg-red-700 font-bold px-3 py-2 rounded">
+          Flagship
+        </div>
       )}
       <Link
         href={href || "#"}

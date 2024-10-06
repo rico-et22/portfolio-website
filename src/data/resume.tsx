@@ -133,10 +133,12 @@ export const DATA = {
   initials: "KP",
   url: "https://kamilpawlak.com",
   location: "Rzeszów region, Poland",
-  description: `I'm a frontend developer and computer science student based near Rzeszów, Poland 🇵🇱. Currently working as a ${work[0].title} at ${work[0].company}.`,
-  summary: `I work mostly with React and Next.js and have experience with TypeScript, Redux, popular CSS solutions (CSS/SCSS Modules, Tailwind CSS), and integrating JAMStack-oriented CMSs like Contentful and Hygraph.
+  description: `I’m a frontend developer and computer science student based near Rzeszów, Poland 🇵🇱. Currently working as a ${work[0].title} at [${work[0].company}](${work[0].href}).`,
+  summary: `I work mostly with React and Next.js and also have experience with TypeScript, popular CSS solutions (CSS/SCSS Modules, Tailwind CSS), and integrating JAMStack-oriented CMSs like Contentful and Hygraph.
 
-Besides that, I am the main author of “Plan lekcji express” – an innovative mobile-first school timetable browser web app. It is available for over 1,000+ people at my former school, widely praised by the school and Frontlive.pl Discord communities. It is now an open-source project with other contributors.
+Besides that, I’m the main author of [“Plan lekcji express”](#projects) – an innovative mobile-first school timetable browser web app. It’s available for over 1,000+ people at my former school, widely praised by the school and Frontlive.pl Discord communities - now an open-source project with other contributors.
+
+Alongside work & study, you can meet me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.dev), [rg-dev](https://www.meetup.com/rg-dev/?eventOrigin=event_home_page)). I also like Apple, travelling (incl. transportation), skiing/skating, sci-fi-related movies & shows, and have an amateur radio license 📻 ([callsign SO8KP](https://www.qrz.com/db/so8kp)) - actually [that's what got me to the world of web development](#sp8pop)!
 `,
   avatarUrl: "/me.png",
   skills: [
@@ -149,6 +151,7 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
     "Tailwind CSS",
     "Vercel",
     "Netlify",
+    "GraphQL",
     "Cloudflare",
   ],
   // navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -209,6 +212,7 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
   ],
   projects: [
     {
+      id: "elektronik",
       title: 'elektronik-timetable / "Plan lekcji express"',
       href: "https://plan-lekcji.zse.rzeszow.pl",
       dates: "2022-",
@@ -217,7 +221,10 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
 - Crafted for Zespół Szkół Elektronicznych w Rzeszowie technical high school from Rzeszow, Poland
 - Mobile-first design made to match the school's website one
 - Can run for many other Optivum-based school timetables too!
-- Data scraping & parsing via @wulkanowy/timetable-parser-js`,
+- Data scraping & parsing via @wulkanowy/timetable-parser-js
+- Teacher replacements view based on Zespół Szkół Elektronicznych w Rzeszowie's own API
+- Technologies: React, Next.js, TypeScript, Tailwind CSS
+- An open-source project with other contributors`,
       technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
       links: [
         {
@@ -235,11 +242,12 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
       flagship: true,
     },
     {
+      id: "econhacks",
       title: "EconHacks website",
       href: "https://econhacks-website.vercel.app",
       dates: "2020-2023",
       active: true,
-      description: `EconHacks was a completely free 24 hours virtual hackathon that fosters hackers to solve problems in the field of economics. People from all over the world gathered around in the teams of 1-4 people and used code to solve some of the economic problems we are facing, especially during the COVID pandemic. The website originally for this event, but now a network of like-minded hackathons, uses React and Next.js on the frontend and GraphCMS on the backend. It's static, data is fetched with help of Apollo client.`,
+      description: `EconHacks was a completely free 24 hours virtual hackathon that fosters hackers to solve problems in the field of economics. People from all over the world gathered around in the teams of 1-4 people and used code to solve some of the economic problems we are facing, especially during the COVID pandemic. The website originally for this event, but now a network of like-minded hackathons, uses React and Next.js on the frontend and GraphCMS on the backend. It's static, data is fetched with the help of Apollo client.`,
       technologies: ["React", "Next.js", "TypeScript", "TailwindCSS"],
       links: [
         {
@@ -257,11 +265,12 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
       flagship: false,
     },
     {
+      id: "sp8pop",
       title: "SP8POP amateur radio club",
       href: "http://sp8pop.zaczernie.pl/",
       dates: "2017-2018",
       active: true,
-      description: `This is my first production work ever. It's a site built for a local ham radio club located in Rzeszów/Zaczernie, Poland. It uses a Realistic WordPress theme with my tweaks and some custom components.`,
+      description: `This is my first production work ever that inspired me to learn web development to build good, responsive ham radio websites where many of them are still from the past era. It's a site built for a local ham radio club located in Rzeszów/Zaczernie, Poland. It uses a Realistic WordPress theme with my tweaks and some custom components.`,
       technologies: [
         "WordPress",
         "Material Components",
