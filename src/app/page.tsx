@@ -32,13 +32,13 @@ export default function Page() {
                     text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
                   />
                   <BlurFadeText
-                    className="max-w-[600px] hidden sm:block md:text-xl"
+                    className="max-w-[600px] hidden sm:block md:text-xl mt-4 xl:mt-2"
                     delay={BLUR_FADE_DELAY}
                     yOffset={0}
                     text={DATA.description}
                   />
                 </div>
-                <BlurFade delay={BLUR_FADE_DELAY}>
+                <BlurFade delay={BLUR_FADE_DELAY} yOffset={0}>
                   <Avatar className="size-20 md:size-40 border border-gray-100">
                     <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                     <AvatarFallback>{DATA.initials}</AvatarFallback>
@@ -46,7 +46,7 @@ export default function Page() {
                 </BlurFade>
               </div>
               <BlurFadeText
-                className="max-w-[600px] sm:hidden mt-2"
+                className="max-w-[600px] sm:hidden"
                 delay={BLUR_FADE_DELAY}
                 yOffset={0}
                 text={DATA.description}
