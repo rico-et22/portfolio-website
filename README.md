@@ -1,13 +1,10 @@
-# Portfolio
+# Portfolio website
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/)
+Hey, this is my second version of my personal portfolio website!
 
-Based on [Dillion Verma's template](https://github.com/dillionverma/portfolio)
+It's built with Next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/).
 
-# Features
-
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+Based on & inspired by [Dillion Verma's template](https://github.com/dillionverma/portfolio)
 
 # Getting Started Locally
 
@@ -34,8 +31,6 @@ Based on [Dillion Verma's template](https://github.com/dillionverma/portfolio)
    ```bash
    pnpm dev
    ```
-
-5. Open the [Config file](./src/data/resume.tsx) and make changes
 
 # License
 
