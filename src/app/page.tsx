@@ -141,7 +141,7 @@ export default function Page() {
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of frontend projects, from
                   simple landing pages to more sophisticated full-fledged web
-                  apps. Here are a few of my favorites.
+                  apps. Here are a few of my favorites:
                 </p>
               </div>
             </div>

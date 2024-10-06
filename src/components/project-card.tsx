@@ -68,7 +68,7 @@ export function ProjectCard({
       </Link>
       <CardHeader className="px-3">
         <div className="space-y-1">
-          <CardTitle className="mt-3">
+          <CardTitle className="mt-3 text-lg sm:text-xl">
             {title}
             <time className="font-sans text-sm ml-2 text-muted-foreground">
               {dates}
