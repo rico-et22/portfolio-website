@@ -158,7 +158,7 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/rico_et22",
         icon: Icons.x,
 
         navbar: true,
