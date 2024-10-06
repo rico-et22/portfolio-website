@@ -14,6 +14,58 @@ const work = [
 Mentored the frontend path of the company's mLab apprenticeship program in the summer of 2024.`,
   },
   {
+    company: "Seth Software",
+    href: "https://seth.software",
+    badges: [],
+    location: "Głogów Małopolski, Poland 🇵🇱 • hybrid",
+    title: "React Developer",
+    logoUrl: "/logos/seth.jpeg",
+    start: "July 2021",
+    end: "October 2022",
+    description: `- Developed an instance of Fahrel Monitoring (a fuel delivery camera monitoring system) for a big European fuel transport company (React, Redux, TypeScript)
+- Maintaining the Cropchart ecosystem web apps (Cropchart, Cropchart Manager, Brigadier) - a CRM-like platform for farmers to track their fields, croppings and treatments and share them with other companies - adding new features, fixing bugs, implementing a subscription payment system (React, Redux, AG Grid)`,
+  },
+  {
+    company: "Brand Active",
+    href: "https://brand-active.pl",
+    badges: [],
+    location: "Rzeszów, Poland 🇵🇱 • hybrid",
+    title: "Junior Front-end Developer",
+    logoUrl: "/logos/brand-active.jpeg",
+    start: "January",
+    end: "June 2021",
+    description: `- Developing Shopify and Shoper-based e-commerce websites with technologies like Shopify Liquid, JavaScript/jQuery and Sass
+
+- Maintaining Brand Active's WordPress-based company website - adding new case studies and job offers, creating a German language version`,
+  },
+  {
+    company: "Forkflow",
+    href: "https://forkflow.io",
+    badges: [],
+    location: "Remote",
+    title: "Frontend Developer",
+    logoUrl: "/logos/forkflow.png",
+    start: "May 2020",
+    end: "January 2021",
+    description:
+      "Helped The Vegan Kind Supermarket rebuild the entire web app that replaced their previous Shopify website. We redefined the UX and UI, giving the website an amazing new look.",
+  },
+  {
+    company: "Poland-Print",
+    href: "https://poland-print.com",
+    badges: [],
+    location: "Rzeszów, Poland 🇵🇱",
+    title: "Web Developer",
+    logoUrl: "/logos/poland-print.png",
+    start: "December 2018",
+    end: "February 2019",
+    description:
+      'When working for this company, I developed a landing page for Betonovo (a company specializing in innovative concrete constructions)\'s new product - Ławka Niepodległości (pol. "Bench of Independence")',
+  },
+];
+
+const apprenticeships = [
+  {
     company: "Flow Productions",
     href: "https://www.flowproductions.pt",
     badges: [],
@@ -52,31 +104,6 @@ Mentored the frontend path of the company's mLab apprenticeship program in the s
       "Creating and maintaining App Dev League's website (React, Next.js)",
   },
   {
-    company: "Seth Software",
-    href: "https://seth.software",
-    badges: [],
-    location: "Głogów Małopolski, Poland 🇵🇱 • hybrid",
-    title: "React Developer",
-    logoUrl: "/logos/seth.jpeg",
-    start: "July 2021",
-    end: "October 2022",
-    description: `- Developed an instance of Fahrel Monitoring (a fuel delivery camera monitoring system) for a big European fuel transport company (React, Redux, TypeScript)
-- Maintaining the Cropchart ecosystem web apps (Cropchart, Cropchart Manager, Brigadier) - a CRM-like platform for farmers to track their fields, croppings and treatments and share them with other companies - adding new features, fixing bugs, implementing a subscription payment system (React, Redux, AG Grid)`,
-  },
-  {
-    company: "Brand Active",
-    href: "https://brand-active.pl",
-    badges: [],
-    location: "Rzeszów, Poland 🇵🇱 • hybrid",
-    title: "Junior Front-end Developer",
-    logoUrl: "/logos/brand-active.jpeg",
-    start: "January",
-    end: "June 2021",
-    description: `- Developing Shopify and Shoper-based e-commerce websites with technologies like Shopify Liquid, JavaScript/jQuery and Sass
-
-- Maintaining Brand Active's WordPress-based company website - adding new case studies and job offers, creating a German language version`,
-  },
-  {
     company: "EconHacks Hackathon",
     href: "https://econhacks-website.vercel.app",
     badges: [],
@@ -86,18 +113,6 @@ Mentored the frontend path of the company's mLab apprenticeship program in the s
     start: "January",
     end: "June 2021",
     description: `Collaborated with Benjamin Chen from Taipei American School and a team of 11 other people from around the world as a web developer in creating EconHacks – a 24-hour international hackathon focused on economics that later evolved to a hackathon network. (It's now defunct)`,
-  },
-  {
-    company: "Forkflow",
-    href: "https://forkflow.io",
-    badges: [],
-    location: "Remote",
-    title: "Frontend Developer",
-    logoUrl: "/logos/forkflow.png",
-    start: "May 2020",
-    end: "January 2021",
-    description:
-      "Helped The Vegan Kind Supermarket rebuild the entire web app that replaced their previous Shopify website. We redefined the UX and UI, giving the website an amazing new look.",
   },
   {
     company: "FOSSASIA",
@@ -110,18 +125,6 @@ Mentored the frontend path of the company's mLab apprenticeship program in the s
     end: "February 2020",
     description:
       "As a Google Code-in participant, I worked with FOSSASIA on improving their contest website (gci19.fossasia.org). My work included squishing some CSS layout bugs and doing maintenance tasks with its Jekyll static site generator such as adding new mentor or student profiles.",
-  },
-  {
-    company: "Poland-Print",
-    href: "https://poland-print.com",
-    badges: [],
-    location: "Rzeszów, Poland 🇵🇱",
-    title: "Web Developer",
-    logoUrl: "/logos/poland-print.png",
-    start: "December 2018",
-    end: "February 2019",
-    description:
-      'When working for this company, I developed a landing page for Betonovo (a company specializing in innovative concrete constructions)\'s new product - Ławka Niepodległości (pol. "Bench of Independence")',
   },
 ];
 
@@ -136,7 +139,18 @@ export const DATA = {
 Besides that, I am the main author of “Plan lekcji express” – an innovative mobile-first school timetable browser web app. It is available for over 1,000+ people at my former school, widely praised by the school and Frontlive.pl Discord communities. It is now an open-source project with other contributors.
 `,
   avatarUrl: "/me.png",
-  skills: ["React", "Next.js", "JavaScript & TypeScript", "Contentful", "Hygraph", "Sass", "Tailwind CSS", "Vercel", "Netlify", "Cloudflare"],
+  skills: [
+    "React",
+    "Next.js",
+    "JavaScript & TypeScript",
+    "Contentful",
+    "Hygraph",
+    "Sass",
+    "Tailwind CSS",
+    "Vercel",
+    "Netlify",
+    "Cloudflare",
+  ],
   // navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hello@kamilpawlak.com",
@@ -173,6 +187,7 @@ Besides that, I am the main author of “Plan lekcji express” – an innovativ
     },
   },
   work,
+  apprenticeships,
   education: [
     {
       school:
