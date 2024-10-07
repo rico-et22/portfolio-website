@@ -55,6 +55,8 @@ export default function Navbar() {
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-8 sm:size-12"
                     )}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <social.icon className="size-4 sm:size-6" />
                   </Link>
@@ -101,6 +103,8 @@ export default function Navbar() {
               buttonVariants({ variant: "ghost" }),
               "flex gap-2 rounded-full sm:rounded-sm p-3 sm:px-4 sm:py-2 h-auto"
             )}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FileText className="size-4 sm:size-6" />
             <span className="hidden sm:block">Resume</span>
