@@ -213,8 +213,10 @@ export default function Page() {
                 </Link>{" "}
                 or message me at my{" "}
                 <Link
-                  href={`mailto:${DATA.contact.social.LinkedIn.url}`}
+                  href={`${DATA.contact.social.LinkedIn.url}`}
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   LinkedIn
                 </Link>{" "}
