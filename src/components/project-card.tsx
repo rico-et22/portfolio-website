@@ -51,7 +51,7 @@ export function ProjectCard({
       )}
     >
       {flagship && (
-        <div className="absolute top-0 right-8 bg-red-700 font-bold px-3 py-2 rounded">
+        <div className="absolute top-0 right-8 bg-red-700 font-bold px-3 py-2 rounded text-gray-50">
           Flagship
         </div>
       )}
