@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
-import { cn } from "@/lib/utils";
+import { cn, convertMarkdownLinkToText } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Rubik as FontSans } from "next/font/google";
 import "./globals.css";
@@ -18,15 +18,19 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  themeColor: "#0282cd",
-  description: DATA.description,
+  description: convertMarkdownLinkToText(DATA.description),
   openGraph: {
     title: `${DATA.name}`,
-    description: DATA.description,
+    description: convertMarkdownLinkToText(DATA.description),
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "og-image.jpg",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -42,9 +46,6 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
-  },
-  verification: {
-    google: "",
   },
   icons: [
     {

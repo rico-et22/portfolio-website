@@ -35,3 +35,7 @@ export function formatDate(date: string) {
     return `${fullDate} (${yearsAgo}y ago)`;
   }
 }
+
+export function convertMarkdownLinkToText(markdown: string) {
+  return markdown.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
