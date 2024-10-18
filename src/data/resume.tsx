@@ -157,7 +157,6 @@ Alongside work & study, you can meet me at Rzeszów’s dev meets 🍺 ([Rzeszó
   // navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hello@kamilpawlak.com",
-    tel: "+48798507543",
     social: {
       GitHub: {
         name: "GitHub",
