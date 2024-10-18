@@ -35,7 +35,6 @@ Mentored the frontend path of the company's mLab apprenticeship program in the s
     start: "January",
     end: "June 2021",
     description: `- Developing Shopify and Shoper-based e-commerce websites with technologies like Shopify Liquid, JavaScript/jQuery and Sass
-
 - Maintaining Brand Active's WordPress-based company website - adding new case studies and job offers, creating a German language version`,
   },
   {
@@ -88,7 +87,6 @@ const apprenticeships = [
     end: "December 2021",
     description: `- Developed UI components for the myPolitics 3.1 redesign
 (Technologies: React, Next.js, TypeScript, styled-components)
-
 - Created some graphics for social media posts in Figma`,
   },
   {
