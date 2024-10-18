@@ -25,24 +25,17 @@ export default function Page() {
             <div className="bg-gradient-to-r from-cyan-500 to-sky-600 p-5 md:p-8 -mx-5 md:-mx-8 rounded-3xl text-white">
               <div className="gap-4 flex justify-between">
                 <div className="flex-col flex flex-1 space-y-1.5">
-                  <BlurFadeText
-                    delay={BLUR_FADE_DELAY}
-                    className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                    yOffset={0}
-                    text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-                  />
-                  <BlurFade delay={BLUR_FADE_DELAY} yOffset={0}>
-                    <Markdown className="max-w-[600px] md:text-xl mt-4 xl:mt-2 [&>p>a]:underline">
-                      {DATA.description}
-                    </Markdown>
-                  </BlurFade>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                    Hi, I&apos;m {DATA.name.split(" ")[0]} 👋
+                  </h2>
+                  <Markdown className="max-w-[600px] md:text-xl mt-4 xl:mt-2 [&>p>a]:underline">
+                    {DATA.description}
+                  </Markdown>
                 </div>
-                <BlurFade delay={BLUR_FADE_DELAY} yOffset={0}>
-                  <Avatar className="size-20 md:size-40 border border-gray-100">
-                    <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                    <AvatarFallback>{DATA.initials}</AvatarFallback>
-                  </Avatar>
-                </BlurFade>
+                <Avatar className="size-20 md:size-40 border border-gray-100">
+                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <AvatarFallback>{DATA.initials}</AvatarFallback>
+                </Avatar>
               </div>
             </div>
           </BlurFade>
