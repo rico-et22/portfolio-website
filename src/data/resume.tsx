@@ -132,11 +132,11 @@ export const DATA = {
   url: "https://kamilpawlak.com",
   location: "Rzeszów region, Poland",
   description: `I’m a frontend developer and computer science student based near Rzeszów, Poland 🇵🇱. Currently working as a ${work[0].title} at [${work[0].company}](${work[0].href}).`,
-  summary: `I work mostly with React and Next.js and also have experience with TypeScript, popular CSS solutions (CSS/SCSS Modules, Tailwind CSS), and integrating JAMStack-oriented CMSs like Contentful and Hygraph.
+  summary: `I specialize in building React-based web app solutions, having experience with various UI/CSS frameworks, API & headless CMS solutions.
 
-Besides that, I’m the main author of [“Plan lekcji express”](#projects) – an innovative mobile-first school timetable browser web app. It’s available for over 1,000+ people at my former school, widely praised by the school and Frontlive.pl Discord communities - now an open-source project with other contributors.
+I’m also the main author of [“Plan lekcji express”](#projects) – a mobile-first school timetable web app, actively used at my former school (1,000+ students).
 
-Alongside work & study, you can meet me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.dev), [rg-dev](https://www.meetup.com/rg-dev/?eventOrigin=event_home_page)). I also like Apple, travelling (incl. transportation), skiing/skating, sci-fi-related movies & shows, and have an amateur radio license 📻 ([callsign SO8KP](https://www.qrz.com/db/so8kp)) - actually [that's what got me to the world of web development](#sp8pop)!
+You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.dev), [rg-dev](https://www.meetup.com/rg-dev/?eventOrigin=event_home_page)), and I'm into Apple, traveling & transportation, skiing/skating, good cinema, and have an amateur radio license 📻 ([callsign SO8KP](https://www.qrz.com/db/so8kp)) - which [introduced me to the world of web development](#sp8pop)!
 `,
   avatarUrl: "/me.png",
   skills: [

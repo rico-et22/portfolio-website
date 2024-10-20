@@ -12,7 +12,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-8 md:space-y-10">
       <BlurFade>
         <h1 className="md:text-xl">
           {DATA.name.split(" ")[0]}{" "}
@@ -24,11 +24,11 @@ export default function Page() {
           <BlurFade>
             <div className="bg-gradient-to-r from-cyan-500 to-sky-600 p-5 md:p-8 -mx-5 md:-mx-8 rounded-3xl text-white">
               <div className="gap-4 flex justify-between">
-                <div className="flex-col flex flex-1 space-y-4">
+                <div className="flex-col flex flex-1 space-y-2 md:space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Hi, I&apos;m {DATA.name.split(" ")[0]} 👋
                   </h2>
-                  <Markdown className="max-w-[600px] md:text-xl mt-4 xl:mt-2 [&>p>a]:underline">
+                  <Markdown className="max-w-[600px] text-sm md:text-xl mt-4 xl:mt-2 [&>p>a]:underline">
                     {DATA.description}
                   </Markdown>
                 </div>
@@ -43,7 +43,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans dark:prose-invert text-sm md:text-base">
+          <Markdown className="prose max-w-full text-pretty font-sans dark:prose-invert text-sm md:text-base -mt-3 md:mt-0">
             {DATA.summary}
           </Markdown>
         </BlurFade>
