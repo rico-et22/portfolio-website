@@ -4,6 +4,7 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -32,7 +33,7 @@ export default function Page() {
                   </Markdown>
                 </div>
                 <Avatar className="size-20 md:size-40 border border-gray-100">
-                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <Image alt={DATA.name} src={DATA.avatarUrl} fill />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
               </div>
