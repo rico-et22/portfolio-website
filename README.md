@@ -11,13 +11,13 @@ Based on & inspired by [Dillion Verma's template](https://github.com/dillionverm
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/rico-et22/portfolio-website
    ```
 
 2. Move to the cloned directory
 
    ```bash
-   cd portfolio
+   cd portfolio-website
    ```
 
 3. Install dependencies:
