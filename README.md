@@ -1,4 +1,4 @@
-<img width="776" alt="image" src="https://github.com/user-attachments/assets/6deadc66-2c54-4e6b-b8f4-714fa441c5b5">
+<img width="1440" alt="Screenshot 2024-10-20 at 20 49 00" src="https://github.com/user-attachments/assets/a8c7db9e-a50a-4884-bda1-1642886f3fd2">
 
 
 # Portfolio website
