@@ -23,7 +23,7 @@ export default function Page() {
           <BlurFade>
             <div className="bg-gradient-to-r from-cyan-500 to-sky-600 p-5 md:p-8 -mx-5 md:-mx-8 rounded-3xl text-white">
               <div className="gap-4 flex justify-between">
-                <div className="flex-col flex flex-1 space-y-1.5">
+                <div className="flex-col flex flex-1 space-y-4">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Hi, I&apos;m {DATA.name.split(" ")[0]} 👋
                   </h2>
