@@ -6,6 +6,7 @@ import { cn, convertMarkdownLinkToText } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Rubik as FontSans } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -74,6 +75,7 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-YXX74YFEQC" />
       </body>
     </html>
   );
