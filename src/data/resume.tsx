@@ -74,7 +74,7 @@ const apprenticeships = [
     start: "April",
     end: "May 2022",
     description:
-      "Development work with PHP. Alongside this, I made a next.js souvenir website with my friend: https://faro.zse.rzeszow.pl",
+      "Development work with PHP. Alongside this, I made a next.js souvenir website with my friend: [https://faro.zse.rzeszow.pl](https://faro.zse.rzeszow.pl)",
   },
   {
     company: "myPolitics",
@@ -197,6 +197,7 @@ Alongside work & study, you can meet me at Rzeszów’s dev meets 🍺 ([Rzeszó
       logoUrl: "/logos/wsiiz.jpeg",
       start: "2023",
       end: "Present",
+      description: `Also serving as a student representative of my year.`,
     },
     {
       school: "Zespół Szkół Elektronicznych w Rzeszowie",
@@ -205,6 +206,11 @@ Alongside work & study, you can meet me at Rzeszów’s dev meets 🍺 ([Rzeszó
       logoUrl: "/logos/elektronik.svg",
       start: "2019",
       end: "2023",
+      description: `Achievements:
+- Finalist of 44th edition of IT, electric & electronic knowledge tournament held yearly at AGH University of Science and Technology in Kraków, Poland.
+11th place in IT group.
+- Erasmus+ apprentice (Faro, Portugal, 2022).
+`,
     },
   ],
   projects: [
