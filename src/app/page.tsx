@@ -200,14 +200,14 @@ export default function Page() {
                 Just send me an email at{" "}
                 <Link
                   href={`mailto:${DATA.contact.email}`}
-                  className="text-blue-500 hover:underline"
+                  className="text-blue-600 hover:underline"
                 >
                   {DATA.contact.email}
                 </Link>{" "}
                 or message me at my{" "}
                 <Link
                   href={`${DATA.contact.social.LinkedIn.url}`}
-                  className="text-blue-500 hover:underline"
+                  className="text-blue-600 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

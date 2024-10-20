@@ -57,6 +57,7 @@ export default function Navbar() {
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={social.name}
                   >
                     <social.icon className="size-4 sm:size-6" />
                   </Link>
@@ -88,6 +89,7 @@ export default function Navbar() {
               buttonVariants({ variant: "ghost" }),
               "flex gap-2 bg-yellow-300 text-gray-900 rounded-full sm:rounded-sm p-3 sm:px-4 sm:py-2 h-auto"
             )}
+            aria-label="Email"
           >
             <emailData.icon className="size-4 sm:size-6" />
             <span className="hidden sm:block">Email</span>
@@ -105,6 +107,7 @@ export default function Navbar() {
             )}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Resume"
           >
             <FileText className="size-4 sm:size-6" />
             <span className="hidden sm:block">Resume</span>
