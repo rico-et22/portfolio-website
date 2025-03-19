@@ -68,6 +68,7 @@ export function ProjectCard({
             width={800}
             height={300}
             className="w-full overflow-hidden object-cover object-top"
+            sizes="(max-width: 768px) 90vw, (max-width: 1440px) 75vw, 50vw"
           />
         )}
       </Link>

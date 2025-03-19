@@ -33,7 +33,12 @@ export default function Page() {
                   </Markdown>
                 </div>
                 <Avatar className="size-20 md:size-40 border border-gray-100">
-                  <Image alt={DATA.name} src={DATA.avatarUrl} fill />
+                  <Image
+                    alt={DATA.name}
+                    src={DATA.avatarUrl}
+                    fill
+                    loading="eager"
+                  />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
               </div>
