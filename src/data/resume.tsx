@@ -244,6 +244,42 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
       flagship: true,
     },
     {
+      id: "loymee",
+      title: "Loymee (mobitouch)",
+      href: "https://loymee.com",
+      dates: "2025",
+      active: true,
+      description: `Co-developed frontend of the customer & company apps of the Loymee suite — a loyalty PWA integrated with mobile wallets, enabling customers to collect points across shops, restaurants and more, and redeem them for rewards. (React, Vite, MUI)`,
+      technologies: ["React", "Vite", "MUI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://loymee.com",
+          icon: <Icons.globe className="size-5" />,
+        },
+      ],
+      image: "/projects/loymee.webp",
+      flagship: false,
+    },
+    {
+      id: "learngo",
+      title: "LearnGO (mobitouch)",
+      href: "https://learngo.app",
+      dates: "2023",
+      active: true,
+      description: `Co-developed frontend of LearnGO — a comprehensive and customizable learning management system tailored for companies and NGOs. (React, Next.js)`,
+      technologies: ["React", "Next.js"],
+      links: [
+        {
+          type: "Website",
+          href: "https://learngo.app",
+          icon: <Icons.globe className="size-5" />,
+        },
+      ],
+      image: "/projects/learngo.png",
+      flagship: false,
+    },
+    {
       id: "econhacks",
       title: "EconHacks website",
       href: "https://econhacks-website.vercel.app",
