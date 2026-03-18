@@ -136,12 +136,17 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills & Technologies</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill} className="text-sm">
-                  {skill}
-                </Badge>
+          <div className="flex flex-col gap-y-3">
+            {DATA.skills.map((group, groupId) => (
+              <BlurFade key={group.category} delay={BLUR_FADE_DELAY * 10 + groupId * 0.05}>
+                <div className="flex flex-col gap-1">
+                  <h3 className="text-base font-bold">{group.category}</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {group.items.map((skill) => (
+                      <Badge key={skill} className="text-sm">{skill}</Badge>
+                    ))}
+                  </div>
+                </div>
               </BlurFade>
             ))}
           </div>
