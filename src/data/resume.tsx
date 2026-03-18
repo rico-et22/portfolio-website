@@ -9,9 +9,14 @@ const work = [
     title: "React Developer",
     logoUrl: "/logos/mobitouch.svg",
     start: "October 2022",
-    description: `Developing and maintaining software solutions using React & Next.js.
-    \n
-Mentored the frontend path of the company's mLab apprenticeship program in the summer of 2024.`,
+    description: `Developing and maintaining web applications using React-based solutions.
+- Mentored the frontend path of the company's mLab apprenticeship program during the summer of 2024 and 2025.
+
+  On the 2024 edition, we spearheaded the development of LearnGo Quizzes, an AI-enhanced quiz sharing platform.
+
+  And in 2025, we created two hybrid web/mobile apps: for reporting nature monuments and earning badges for eco-friendly activities.
+- Collaborated on Loymee, a loyalty PWA web application integrated with mobile wallets that empowers customers to collect points across various shops, restaurants etc., and redeem them for rewards.
+- Initiated the development of LearnGo, a comprehensive and customizable learning management system tailored for companies and NGOs.`,
   },
   {
     company: "Seth Software",
