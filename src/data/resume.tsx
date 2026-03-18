@@ -32,7 +32,7 @@ const work = [
   },
   {
     company: "Brand Active",
-    href: "https://brand-active.pl",
+    href: "https://brandactive.pl/",
     badges: [],
     location: "Rzeszów, Poland 🇵🇱 • hybrid",
     title: "Junior Front-end Developer",
