@@ -146,7 +146,7 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
   avatarUrl: "/me.png",
   skills: [
     { category: "Frontend", items: ["React", "Next.js", "Vite", "JavaScript & TypeScript", "Tailwind CSS", "Sass"] },
-    { category: "CMS", items: ["Contentful", "Hygraph"] },
+    { category: "CMS", items: ["Contentful", "Hygraph", "WordPress"] },
     { category: "API", items: ["REST", "GraphQL", "TanStack Query"] },
     { category: "Infrastructure", items: ["Vercel", "Netlify", "Cloudflare"] },
     { category: "AI Tools", items: ["Claude Code", "GitHub Copilot", "Antigravity"] },
