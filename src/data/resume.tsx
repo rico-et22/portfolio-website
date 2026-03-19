@@ -9,13 +9,13 @@ const work = [
     title: "React Developer",
     logoUrl: "/logos/mobitouch.svg",
     start: "October 2022",
-    description: `Developing and maintaining web applications using React-based solutions.
+    description: `Architecting and developing scalable web applications within the React ecosystem.
 - Mentored the frontend path of the company's mLab apprenticeship program during the summer of 2024 and 2025.
 
   On the 2024 edition, we spearheaded the development of LearnGo Quizzes, an AI-enhanced quiz sharing platform.
 
   And in 2025, we created two hybrid web/mobile apps: for reporting nature monuments and earning badges for eco-friendly activities.
-- Collaborated on Loymee, a loyalty PWA web application integrated with mobile wallets that empowers customers to collect points across various shops, restaurants etc., and redeem them for rewards.
+- Co-developed Loymee, a loyalty PWA web application integrated with mobile wallets that empowers customers to collect points across various shops, restaurants etc., and redeem them for rewards.
 - Initiated the development of LearnGo, a comprehensive and customizable learning management system tailored for companies and NGOs.`,
   },
   {
@@ -28,7 +28,7 @@ const work = [
     start: "July 2021",
     end: "October 2022",
     description: `- Developed an instance of Fahrel Monitoring (a fuel delivery camera monitoring system) for a big European fuel transport company (React, Redux, TypeScript)
-- Maintaining the Cropchart ecosystem web apps (Cropchart, Cropchart Manager, Brigadier) - a CRM-like platform for farmers to track their fields, croppings and treatments and share them with other companies - adding new features, fixing bugs, implementing a subscription payment system (React, Redux, AG Grid)`,
+- Scaled the Cropchart ecosystem web apps (Cropchart, Cropchart Manager, Brigadier) for new features and clients, enhancing a CRM-like platform for farmers (React, Redux, AG Grid)`,
   },
   {
     company: "Brand Active",
@@ -39,8 +39,8 @@ const work = [
     logoUrl: "/logos/brand-active.jpeg",
     start: "January",
     end: "June 2021",
-    description: `- Developing Shopify and Shoper-based e-commerce websites with technologies like Shopify Liquid, JavaScript/jQuery and Sass
-- Maintaining Brand Active's WordPress-based company website - adding new case studies and job offers, creating a German language version`,
+    description: `- Developed and customized Shopify-based e-commerce websites utilizing Shopify Liquid and React.
+- Maintained Brand Active's WordPress-based company website - adding new case studies and job offers, creating a German language version`,
   },
   {
     company: "Forkflow",
