@@ -250,7 +250,7 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
       dates: "2025",
       active: true,
       description: `Co-developed frontend of the customer & company apps of the Loymee suite — a loyalty PWA integrated with mobile wallets, enabling customers to collect points across shops, restaurants and more, and redeem them for rewards. (React, Vite, MUI)`,
-      technologies: ["React", "Vite", "MUI"],
+      technologies: ["React", "Vite", "MUI", "PWA"],
       links: [
         {
           type: "Website",
@@ -258,7 +258,7 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
           icon: <Icons.globe className="size-5" />,
         },
       ],
-      image: "/projects/loymee.webp",
+      image: "/projects/loymee.png",
       flagship: false,
     },
     {
