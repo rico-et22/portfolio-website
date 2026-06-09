@@ -145,11 +145,24 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
 `,
   avatarUrl: "/me.png",
   skills: [
-    { category: "Frontend", items: ["React", "Next.js", "Vite", "JavaScript & TypeScript", "Tailwind CSS", "Sass"] },
+    {
+      category: "Frontend",
+      items: [
+        "React",
+        "Next.js",
+        "Vite",
+        "JavaScript & TypeScript",
+        "Tailwind CSS",
+        "Sass",
+      ],
+    },
     { category: "CMS", items: ["Contentful", "Hygraph", "WordPress"] },
     { category: "API", items: ["REST", "GraphQL", "TanStack Query"] },
     { category: "Infrastructure", items: ["Vercel", "Netlify", "Cloudflare"] },
-    { category: "AI Tools", items: ["Claude Code", "GitHub Copilot", "Antigravity"] },
+    {
+      category: "AI Tools",
+      items: ["Claude Code", "GitHub Copilot", "Antigravity"],
+    },
   ],
   // navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -242,6 +255,40 @@ You can find me at Rzeszów’s dev meets 🍺 ([Rzeszów.js](https://rzeszowjs.
       ],
       image: "/projects/plex.png",
       flagship: true,
+    },
+    {
+      id: "pzk-polska-award-form",
+      title: "PZK POLSKA Ham Radio Award PDF Generator",
+      href: "https://awards.pzk.org.pl/polska-award-form/index.html",
+      dates: "2026",
+      active: true,
+      description: `A modern, responsive React web application that completely automates the tedious process of filling out the official "POLSKA" Award PDF forms issued by the PZK (Polish Amateur Radio Union).
+\n
+Instead of manually fighting with interactive PDF forms or filling them by hand and stitching together, ham radio operators can use this web UI to punch in their QSO contacts, select their award categories, and automatically generate a flattened, print-ready PDF containing both their Application and required Record Sheets.
+\n
+The form fills out the PDF locally in the browser using pdf-lib (no server backend required), automatically giving full data protection compliance.
+`,
+      technologies: [
+        "React",
+        "Vite",
+        "shadcn/ui",
+        "react-hook-form",
+        "pdf-lib",
+      ],
+      links: [
+        {
+          type: "See it live",
+          href: "https://awards.pzk.org.pl/polska-award-form/index.html",
+          icon: <Icons.globe className="size-5" />,
+        },
+        {
+          type: "GitHub repo",
+          href: "https://github.com/rico-et22/pzk-polska-award-form",
+          icon: <Icons.github className="size-5" />,
+        },
+      ],
+      image: "/projects/pzk-polska.png",
+      flagship: false,
     },
     {
       id: "loymee",
